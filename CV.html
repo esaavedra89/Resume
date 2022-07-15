@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF8">
+    <meta name="viwport" content="width=divce-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css?1">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
+    <title></title>
+     <style>
+
+        * {
+            margin: 0;
+            padding-top: 1px;
+            font-family: 'Poppins', sans-serif!important;
+        }
+
+        body {
+            width: 21.6cm;
+            height: 27.9cm;
+            position: relative;
+            margin: auto;
+            font-family: DINPro-Bold,Arial,Verdana,sans-serif;
+        }
+
+        #header{
+            background-color: #5e8999;
+            height: 200px;
+            width: 100;
+            position: relative;
+        }
+
+        .circular_image {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                overflow: hidden;
+                border: 2px solid white;
+                position: absolute;
+                left: 40px;
+                top: 100px;
+
+            }
+            
+            .circular_image img{
+                width:100%;
+            }
+
+            #header-Name{
+                color: white;
+                position: absolute;
+                left: 220px;
+                top: 120px;
+                
+            }
+            
+            #tableContent{
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 10px;
+            }
+
+            .secciones{
+                margin: 10px;
+            }
+
+            .titulosSecciones{
+                margin: 10px 0;
+                color: #1b4250;
+                font-size: large;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            .textSecciones{
+                color: white;
+                font-size: 14px;
+            }
+
+            .subTextSecciones{
+                color: white;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            .colorText{
+                color: #1b4250!important;
+            }
+
+            .text-Secciones-Left{
+                font-size: 14px;
+                margin-top: 5px;
+            }
+
+            .bold-Text{
+                font-weight: bold;
+            }
+
+            .subtitulo-Secciones{
+                font-weight: bold;
+                font-size: 15px;
+            }
+
+            .table-Habilidades{
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            .text-Bar{
+                color: #2196F3!important;
+            }
+
+            .bar-Color{
+                background-color: #2983a3!important;
+            }
+        
+    </style>
+</head>
+<body>
+     <div id="divContenido">      
+        <div id="header">
+            <div class="circular_image">
+                <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEkmG3RgwSgkw/profile-displayphoto-shrink_800_800/0/1580510974625?e=1663200000&v=beta&t=N6c4x1onT11fneJlAx6TXUkkOa-H76FIkTtYa8DU5JA">
+            </div>
+            <div id="header-Name">
+                <p style="font-size: 34px;font-weight: bold;">Eleazar Saavedra</p>
+                <p>Software Engineer | Xamarin Forms Developer</p>
+            </div>
+        </div>
+        <table id="tableContent">
+            <tr>
+                <td style="width:60%">
+                    <div class="secciones colorText" >
+                        <p class="titulosSecciones">Professional experience</p>
+                        
+                        <div class="text-Secciones-Left">
+                            <p class="subtitulo-Secciones">NEOTECNOLOGIAS | Software Engineer</p>
+                            <P>Jun. 2019 - Present</P>
+                            <p class="bold-Text">Dutties:</p>
+                            <p>Develop and support of:</p>
+                            <ul>
+                                <li>Mobile app company with Xamarin Forms</li>
+                                <li>A client mobile app called Flora Nueva with Xamarin Forms</li>
+                                <li>RESTful APIs solutions with ASP.NET Web API. </li>
+                                <li>Templates with Web Forms.</li>
+                                <li>New features of NEOBusiness ERP system.</li>
+                                <li>Company web page.</li>
+                            </ul>
+                        </div>
+
+                        <div class="text-Secciones-Left">
+                            <p class="subtitulo-Secciones">HISPANOS SOLUCIONES, C.A. | Mobile Developer</p>
+                            <P>Sep. 2017 - May. 2019</P>
+                            <p class="bold-Text">Dutties:</p>
+                            <p>Develop mobile applications with Xamarin Forms according to customer's specifications and our recommendations.</p>
+                        </div>
+                    </div>
+                    <div class="secciones colorText">
+                        <p class="titulosSecciones">SOFTWARE & PRINCIPAL SKILLS</p>
+                        <div class="text-Secciones-Left">
+                            <table class="table-Habilidades">
+                                <tr>
+                                    <td style="width: 47%;">
+                                        <p>Xamarin Forms</p>
+                                        <div class="w3-light-grey w3-round">
+                                            <div class="w3-container w3-round bar-Color" style="width:70%;"><span class="text-Bar">&nbsp;</span></div>
+                                          </div>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td style="width: 47%;">
+                                        <p>C#</p>
+                                        <div class="w3-light-grey w3-round">
+                                            <div class="w3-container bar-Color w3-round" style="width:65%"><span class="text-Bar">&nbsp;</span></div>
+                                          </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Web Forms</p>
+                                        <div class="w3-light-grey w3-round">
+                                            <div class="w3-container bar-Color w3-round" style="width:50%"><span class="text-Bar">&nbsp;</span></div>
+                                          </div>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                        <p>REST APIs</p>
+                                        <div class="w3-light-grey w3-round">
+                                            <div class="w3-container bar-Color w3-round" style="width:40%"><span class="text-Bar">&nbsp;</span></div>
+                                          </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>SQL Server</p>
+                                        <div class="w3-light-grey w3-round">
+                                            <div class="w3-container bar-Color w3-round" style="width:30%"><span class="text-Bar">&nbsp;</span></div>
+                                          </div>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                        <p>LINQ</p>
+                                        <div class="w3-light-grey w3-round">
+                                            <div class="w3-container bar-Color w3-round" style="width:50%"><span class="text-Bar">&nbsp;</span></div>
+                                          </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>CSS</p>
+                                        <div class="w3-light-grey w3-round">
+                                            <div class="w3-container bar-Color w3-round" style="width:60%"><span class="text-Bar">&nbsp;</span></div>
+                                          </div>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                        <p>Javascript</p>
+                                        <div class="w3-light-grey w3-round">
+                                            <div class="w3-container bar-Color w3-round" style="width:40%"><span class="text-Bar">&nbsp;</span></div>
+                                          </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="secciones colorText">
+                        <p class="titulosSecciones">OTHER SOFTWARE SKILLS</p>
+                        <table class="table-Habilidades">
+                            <tr>
+                                <td style="width: 50%">
+                                    <ul>
+                                        <li>MVVM</li>
+                                        <li>Three-tier architecture</li>
+                                        <li>HTML</li>
+                                        <li>XAML</li>
+                                    </ul>
+                                </td>
+                                <td style="width: 50%;vertical-align: text-top;padding: 0;position: relative;">
+                                    <ul style="position: absolute;top:0">
+                                        <li>GIT</li>
+                                        <li>Visual Studio</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                        
+                    </div>
+                </td>
+                <td style="width: 40%;">
+                    <div style="height: 840px;background-color: #5e8999;">
+                        <div class="secciones">
+                            <p class="titulosSecciones">Profile</p>
+                            <p class="textSecciones">
+                                System Engineer working as a software developer with experience at cross-platform mobile development with Xamarin Forms (C#-Xaml).
+                                RESTful APIs with ASP.NET Web API. Web Forms. Web development (HTML, CSS, JavaScript) and SQL Server.
+                                I like to learn new technologies and new things.
+                                My best values are responsibility and dedication.</p>
+                        </div>
+                        <div class="secciones">
+                            <p class="titulosSecciones">Contact</p>
+                            <p class="textSecciones">+584121897161</p>
+                            <p class="textSecciones">Monagas, Venezuela</p>
+                            <p class="textSecciones">eleazarsaavedra@gmail.com</p>
+                            <p class="textSecciones"><a href="https://www.linkedin.com/in/eleazarsaavedra/">www.linkedin.com/in/eleazarsaavedra/</a></p>
+                        </div>
+                        <div class="secciones">
+                            <p class="titulosSecciones">Education</p>
+
+                            <p class="subTextSecciones">Universidad de oriente (VE)</p>
+                            <p class="textSecciones">Systems Engineer</p>
+                            <p class="textSecciones">2009 - 2016</p>
+
+                            <p class="subTextSecciones" style="margin-top: 10px;">U. E. Felix Armando Nuñez B.</p>
+                            <p class="textSecciones">Bachelor of Science</p>
+                            <p class="textSecciones">2001 - 2006</p>
+                        </div>
+                        <div class="secciones">
+                            <p class="titulosSecciones">Idioms</p>
+                            <p class="textSecciones">English: middle</p>
+                            <p class="textSecciones">Spanish: native</p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    
+    <div id="divFinDocumento">
+    </div>
+
+    <script type="text/javascript">
+        
+    </script>
+</body>
+</html>
